@@ -38,9 +38,15 @@ if (hacker1.localeCompare(hacker2) ==1) {
 
 // Bonus 1
 
-let text="tibulum dui velit, accumsan vel venenatis in, scelerisque quis ligula."
-words=text.split(" ").length;
-console.log(words);
+let text = "tibulum dui velit, accumsan vel venenatis in, scelerisque quis ligula.";
+let spaceCount = 1;
+
+for (let i = 0; i < text.length; i++) {
+    if (text[i] === ' ') {
+        spaceCount++;
+    }
+}
+console.log("Number of words:", spaceCount);
 
 // Bonus 2
 
