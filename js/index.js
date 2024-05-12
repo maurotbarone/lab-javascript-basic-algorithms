@@ -37,6 +37,7 @@ if (hacker1.localeCompare(hacker2) ==1) {
 
 
 // Bonus 1
+//mofified on 12 May 2024 -> solution build for string instead of array
 
 let text = "tibulum dui velit, accumsan vel venenatis in, scelerisque quis ligula.";
 let spaceCount = 1;
